@@ -22,6 +22,6 @@ test('EDGE_001 - Verify payroll calculation when all salary components are zero'
      await payrollPage.enterPayrollData(payrollData);  
      await payrollPage.calculate(); 
      await expect(payrollPage.netSalary).toBeVisible(); //Verify net salary is displayed 
-     await expect(payrollPage.errorMessage).toBeVisible();// Verify zero is not allowed as per business requirement
+     await expect(payrollPage.errorMessage).toBeVisible();//... Verify zero is not allowed as per business requirement
      
 })
