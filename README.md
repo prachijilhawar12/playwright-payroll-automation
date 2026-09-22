@@ -20,13 +20,14 @@ The project covers functional, negative, and edge-case scenarios and follows the
 playwrightAutomation/
 │
 ├── pages/
-│   ├── LoginPage.js
-│   └── PayrollPage.js
+│   ├── loginpage.js
+|   ├──payrollpage.js
 │
 ├── tests/
 │   ├── automationScript-Positive.spec.js
-│   ├── automationScript-Negative.spec.js
-│   └── automationScript-Edge.spec.js
+|   ├── automationScript-Negative.spec.js
+|    ├── automationScript-Edge.spec.js
+|    └── loginPayrollApplication.spec.js
 │
 ├── playwright.config.js
 ├── package.json
