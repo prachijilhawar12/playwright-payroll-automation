@@ -28,9 +28,6 @@ playwrightAutomation/
 │   ├── automationScript-Negative.spec.js
 │   └── automationScript-Edge.spec.js
 │
-├── test-data/
-│   └── payrollData.json
-│
 ├── playwright.config.js
 ├── package.json
 ├── .gitignore
@@ -87,6 +84,17 @@ npx playwright show-report
 ## Git Repository
 
 Git is used for version control and GitHub is used to maintain the automation project.
+
+## Future Scope
+
+The framework can be enhanced in the future by adding:
+
+* External test data using JSON or Excel
+* API testing integration
+* CI/CD pipeline integration
+* Cross-browser execution
+* Enhanced reporting
+
 
 ## Author
 
